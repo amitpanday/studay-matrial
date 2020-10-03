@@ -11,38 +11,37 @@
 <body>
 
     <div class="mainBody">
-        <div id="screen">
-
-        </div>
+        <div id="screen"></div>
         <div class="btn-1">
-            <form action="">
-                <input class="clear_btn" type="submit" name="submit" value="C">
-                <input class="clear_btn" type="submit" name="submit" value="+/-">
-                <input class="clear_btn" type="submit" name="submit" value="%">
-                <input class="clear_btn" type="submit" name="submit" value="Del">
-            </form>
+            <div class="">
+                <input class="clear_btn" onclick="onClickButton1('')" id="btn17" type="submit" name="submit" value="C">
+                <input class="clear_btn" onclick="onClickButton('+/-')" id="btn18" type="submit" name="submit" value="+/-">
+                <input class="clear_btn" onclick="onClickButton('%')" id="btn19" type="submit" name="submit" value="%">
+                <input class="clear_btn" onclick="onClickButton2('Del')" id="btn20" type="submit" name="submit" value="Del">
+            </div>
         </div>
         <div class="btn-2">
-            <form action="">
-                <input class="key-btn-1" id="key-btn-1" type="submit" name="submit" onclick="dis('1')" value="1">
-                <input class="key-btn-1" id="key-btn-2" type="submit" name="submit" onclick="dis('2')" value="2">
-                <input class="key-btn-1" id="key-btn-3" type="submit" name="submit" onclick="dis('3')" value="3">
-                <input class="key-btn" id="btn+" type="submit" name="submit" onclick="dis('1')" value="+">
-                <input class="key-btn-1" id="key-btn-4" type="submit" name="submit" onclick="dis('4')" value="4">
-                <input class="key-btn-1" id="key-btn-5" type="submit" name="submit" onclick="dis('5')" value="5">
-                <input class="key-btn-1" id="key-btn-6" type="submit" name="submit" onclick="dis('6')" value="6">
-                <input class="key-btn" id="btn-" type="submit" name="submit" onclick="dis('-')" value="-">
-                <input class="key-btn-1" id="key-btn-7" type="submit" name="submit" onclick="dis('7')" value="7">
-                <input class="key-btn-1" id="key-btn-8" type="submit" name="submit" onclick="dis('8')" value="8">
-                <input class="key-btn-1" id="key-btn-9" type="submit" name="submit" onclick="dis('9')" value="9">
-                <input class="key-btn" id="btn*" type="submit" name="submit" onclick="dis('*')" value="*">
-                <input class="key-btn-1" id="btn." type="submit" name="submit" onclick="dis('.')" value=".">
-                <input class="key-btn-1" id="key-btn-0" type="submit" name="submit" onclick="dis('0')" value="0">
-                <input class="key-btn" id="btn=" type="submit" name="submit" onclick="dis('=')" value="=">
-                <input class="key-btn" id="btn/" type="submit" name="submit" onclick="dis('/')" value="/">
+            <div class="">
+                <!-- Number html -->
+                <input class="key-btn-1" id="btn1" onclick="onClickButton('1')" type="submit" name="one" value="1">
+                <input class="key-btn-1" id="btn2" type="submit" name="submit" onclick="onClickButton('2')" value="2">
+                <input class="key-btn-1" id="btn3" type="submit" name="submit" onclick="onClickButton('3')" value="3">
+                <input class="key-btn" id="btn15" type="submit" name="submit" onclick="onClickButton('+')" value="+">
+                <input class="key-btn-1" id="btn4" type="submit" name="submit" onclick="onClickButton('4')" value="4">
+                <input class="key-btn-1" id="btn5" type="submit" name="submit" onclick="onClickButton('5')" value="5">
+                <input class="key-btn-1" id="btn6" type="submit" name="submit" onclick="onClickButton('6')" value="6">
+                <input class="key-btn" id="btn16" type="submit" name="submit" onclick="onClickButton('-')" value="-">
+                <input class="key-btn-1" id="btn7" type="submit" name="submit" onclick="onClickButton('7')" value="7">
+                <input class="key-btn-1" id="btn8" type="submit" name="submit" onclick="onClickButton('8')" value="8">
+                <input class="key-btn-1" id="btn9" type="submit" name="submit" onclick="onClickButton('9')" value="9">
 
-
-            </form>
+                <!-- Symbol html -->
+                <input class="key-btn" id="btn10" type="submit" name="submit" onclick="onClickButton('*')" value="*">
+                <input class="key-btn-1" id="btn11" type="submit" name="submit" onclick="onClickButton('.')" value=".">
+                <input class="key-btn-1" id="btn12" type="submit" name="submit" onclick="onClickButton('0')" value="0">
+                <input class="key-btn" id="btn13" type="submit" name="submit" onclick="onClickButton('=')" value="=">
+                <input class="key-btn" id="btn14" type="submit" name="submit" onclick="onClickButton('/')" value="/">
+            </div>
         </div>
     </div>
 </body>

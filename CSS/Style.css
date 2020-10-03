@@ -21,7 +21,13 @@
     background: white;
     border-radius: 15px;
     margin: 15px;
+    text-align: right;
     box-shadow: 4px 0px 12px black inset;
+    text-overflow: hidden;
+}
+
+#screen text {
+    margin-right: 20px;
 }
 
 .clear_btn {
