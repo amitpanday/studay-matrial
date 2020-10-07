@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="/home/amit/Project/calculator/CSS/Style.css">
+    <link rel="stylesheet" href="/studay-matrial/CSS/Style.css">
 </head>
+
 <body class="body">
     <div class="mainBody">
         <div id="screen">0</div>
         <div class="btn-1">
             <div class="">
-                <input class="clear_btn" onclick="onOprationClick('C')" id="btn17" type="submit" name="submit" value="C">
+                <input class="clear_btn" onclick="onOprationClick1('')" id="btn17" type="submit" name="submit" value="C">
                 <input class="clear_btn" onclick="onOprationClick('+/-')" id="btn18" type="submit" name="submit" value="+/-">
                 <input class="clear_btn" onclick="onOprationClick('%')" id="btn19" type="submit" name="submit" value="%">
                 <input class="clear_btn" onclick="onOprationClick('Del')" id="btn20" type="submit" name="submit" value="Del">
@@ -20,14 +22,7 @@
         <div class="btn-2">
             <div class="">
                 <!-- Number html -->
-                <input 
-                    class="key-btn-1" 
-                    id="btn1" 
-                    onclick="onNumClick('1')"
-                    type="submit" 
-                    name="one"
-                    value="1"
-                >
+                <input class="key-btn-1" id="btn1" onclick="onNumClick('1')" type="submit" name="one" value="1">
                 <input class="key-btn-1" id="btn2" type="submit" name="submit" onclick="onNumClick('2')" value="2">
                 <input class="key-btn-1" id="btn3" type="submit" name="submit" onclick="onNumClick('3')" value="3">
                 <input class="key-btn" id="btn15" type="submit" name="submit" onclick="onOprationClick('+')" value="+">
@@ -49,5 +44,6 @@
         </div>
     </div>
 </body>
-<script src="/home/amit/Project/calculator/JS/Script.js"></script>
+<script src="/studay-matrial/JS/Script.js"></script>
+
 </html>
