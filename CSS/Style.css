@@ -1,6 +1,7 @@
 .body {
     background: linear-gradient(to right, #f8f8f8, #020101);
 }
+
 .mainBody {
     width: 300px;
     height: 500px;
@@ -13,6 +14,7 @@
     transform: translate(-50%, -50%);
     box-shadow: 4px 8px 25px;
 }
+
 .mainBody:hover {
     height: 510px;
 }
@@ -20,11 +22,12 @@
 #screen {
     width: 270px;
     height: 120px;
-	padding: 15px 0px;
-	text-align: right;
-	font-size: 2.5em;
-	font-family: 'Oxygen Mono', monospace;
+    padding: 15px 0px;
+    text-align: right;
+    font-size: 2.5em;
+    font-family: 'Oxygen Mono', monospace;
     color: black;
+    box-shadow: 4px 0px 12px black inset;
     background: white;
     border-radius: 15px;
     margin: 15px;
