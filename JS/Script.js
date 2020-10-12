@@ -1,6 +1,7 @@
 const screen = document.getElementById('screen');
 let value1 = ''; // false;
 let value2 = ''; //false;
+let value3 = ''; // false;
 let operation = '+';
 let operPressed = false;
 let total = 0;
@@ -57,8 +58,17 @@ function totalValue() {
     }
     total = total.toString();
     screen.innerHTML = total;
-    console.log(value1, operation, value2, 'total =>', total);
+
+    if (operPressed) {
+        total = total + value;
+        screen.innerHTML = total + operation + value;
+    } else {
+        total = total + value;
+        screen.innerHTML = total;
+    }
 }
+
+
 
 //function that clear the display 
 function onOprationClick1() {
