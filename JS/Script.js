@@ -59,13 +59,7 @@ function totalValue() {
     total = total.toString();
     screen.innerHTML = total;
 
-    if (operPressed) {
-        total = total + value;
-        screen.innerHTML = total + operation + value;
-    } else {
-        total = total + value;
-        screen.innerHTML = total;
-    }
+
 }
 
 
